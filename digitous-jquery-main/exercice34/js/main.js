@@ -8,10 +8,10 @@ $(() => {
             url: "https://restcountries.com/v3.1/name/" + inputValue,
             success: function(inputCountry) {
 
-                $("#country").append(
+                $("#country").html(
                     `<p>${inputCountry[0].name.common}</p>`);
 
-                $("#capital").append(
+                $("#capital").html(
                     `<p>${inputCountry[0].capital[0]}</p>`);
 
             },
