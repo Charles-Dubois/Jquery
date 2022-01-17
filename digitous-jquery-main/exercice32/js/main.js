@@ -6,7 +6,6 @@ $(() => {
             success: function(france) {
                 console.log(france[0].name.common)
                 console.log(france[0].capital[0])
-
             },
         })
     })
