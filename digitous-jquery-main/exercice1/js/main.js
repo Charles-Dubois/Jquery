@@ -1,4 +1,4 @@
 $(() => {
-    const square = $("#square")
-    square.css('background-color', 'red')
+    const square = $("#square");
+    square.css('background-color', 'red');
 })
